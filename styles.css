@@ -132,7 +132,8 @@ form{
   padding: 3rem;
   border: 1px solid var(--primary-color);
   border-radius: 20px;
-  overflow: hidden;
+
+  overflow: visible;
   
   
 
@@ -251,8 +252,9 @@ text-align: left;
   height: 100%;
   padding: 2rem;
   text-align: center;
-  overflow: scroll;
+ 
 }
+
 
 }
 
