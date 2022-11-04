@@ -73,7 +73,7 @@
     padding: 2rem;
     border: none;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: scroll;
     margin: 0 auto;
     
   
@@ -166,7 +166,7 @@ and (max-device-width: 1024px) {
       border: none;
       border-radius: none;
       margin: 0 auto;
-      overflow: hidden;
+      overflow:scroll;
       
     
     
