@@ -63,7 +63,7 @@
     
   #main-contact{
   background: url(/img/truck3.jpg) no-repeat center center/cover;
-  height: 100vh;
+  height: 100%;
   padding: 1rem;
   text-align: center;
   }
