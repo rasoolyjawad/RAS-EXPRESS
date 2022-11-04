@@ -29,17 +29,17 @@
                
                 <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                     <label for="firstname">First Name</label>
-                    <input type="text" id="fname" name="name">
+                    <input type="text" id="fname" name="name" required>
                     <label for="lastname" >Last Name</label>
-                    <input type="text" name="lastname" id="fname">
+                    <input type="text" name="lastname" id="fname" required>
                     <label for="phonenumber">Phone Number</label>
-                    <input type="number" name="phone_number" id="pnumber">
+                    <input type="number" name="phone_number" id="pnumber" required>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                     <br>
                     <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Write your message here..."></textarea>
                     <br>
-                    <div data-netlify-recaptcha="true"></div>
+                    <div data-netlify-recaptcha="true" required ></div>
                     <br>
                     <button type="submit" id="submit" class="primary-button">Submit</button>
                     </div>
