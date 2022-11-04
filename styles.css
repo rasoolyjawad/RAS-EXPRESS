@@ -110,10 +110,9 @@ font-size: 4rem;
 #main-about{
     background: url(/img/truck5.jpg) no-repeat center center/cover;
     height: 100vh;
-    padding: 20rem 10rem;
+    padding: 10rem 10rem;
     text-align: center;
-    color: var(--bright-color);
-    
+    color: var(--bright-color);   
 }
 #main-about p{
     font-size: 1.2rem;
@@ -134,6 +133,7 @@ form{
   border: 1px solid var(--primary-color);
   border-radius: 20px;
   overflow: hidden;
+  
   
 
 
@@ -181,6 +181,7 @@ textarea{
   background-color: #a9a9a9;
   color: var(--bright-color);
   border-radius: 5px;
+  resize: none;
 }
 textarea::placeholder{
   color: var(--bright-color);

@@ -75,6 +75,7 @@
     border-radius: 10px;
     overflow: scroll;
     margin: 0 auto;
+    resize: none;
     
   
   
@@ -124,6 +125,7 @@
     background-color: #a9a9a9;
     color: var(--bright-color);
     border-radius: 10px;
+    resize: none;
   }
   textarea::placeholder{
     color: var(--bright-color);
@@ -167,6 +169,7 @@ and (max-device-width: 1024px) {
       border-radius: none;
       margin: 0 auto;
       overflow:scroll;
+      resize: none;
       
     
     
@@ -216,7 +219,8 @@ and (max-device-width: 1024px) {
       background-color: #a9a9a9;
       color: var(--bright-color);
       border-radius: 10px;
-    }
+      resize: none;
+        }
     textarea::placeholder{
       color: var(--bright-color);
     }
