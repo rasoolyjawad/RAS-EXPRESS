@@ -234,6 +234,27 @@ text-align: left;
   font-size: 10px;
   font-style: italic;
 }
+@media (min-height: 400px) and (max-height: 600px){
+  #main-about{
+    background: url(/img/truck5.jpg) no-repeat center center/cover;
+    height: 100vh;
+    padding: 1rem;
+    text-align: center;
+    color: var(--bright-color);   
+}
+#main-about p{
+    font-size: 1.2rem;
+    
+}
+#main-contact{
+  background: url(/img/truck3.jpg) no-repeat center center/cover;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  overflow: scroll;
+}
+
+}
 
 
 
