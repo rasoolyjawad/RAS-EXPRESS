@@ -2,7 +2,7 @@
 /* Media querries */
 
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
     .header{
       display: block;
       text-align: center;
@@ -53,10 +53,10 @@
   
   #main-about{
     background: url(/img/truck5.jpg) no-repeat ; 
-    height: 60vh;
     text-align: center;
     color: var(--bright-color);
     padding: 1rem;
+    overflow: visible;
     
   }
   
@@ -73,9 +73,10 @@
     padding: 2rem;
     border: none;
     border-radius: 10px;
-    overflow: scroll;
+    overflow: visible;
     margin: 0 auto;
     resize: none;
+    
     
   
   
@@ -168,7 +169,7 @@ and (max-device-width: 1024px) {
       border: none;
       border-radius: none;
       margin: 0 auto;
-      overflow:scroll;
+      overflow:visible;
       resize: none;
       
     
